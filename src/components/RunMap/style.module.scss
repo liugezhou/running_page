@@ -1,0 +1,46 @@
+@import '../../styles/variables.scss';
+
+.locationSVG {
+  height: 100%;
+  width: 100%;
+  margin: 1rem 0 0;
+  border: 0;
+  padding: 0;
+}
+
+.buttons {
+  margin: 0 auto;
+}
+
+.button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  // width: 9%;
+  padding: 1.3rem;
+  margin-top: .1rem;
+  font-size: 1.3rem;
+  text-align: center;
+  color: red;
+  font-family: $global-font-family;
+  border-radius: 5px;
+}
+.button:hover{
+  background: rgba(0, 109, 123,.3);
+}
+.buttonTitle{
+  background: linear-gradient(to bottom right, #4DB6AC,#19707C );
+}
+
+.runTitle {
+  height: 29px;
+  width: 710px;
+  position: absolute;
+  bottom: 0px;
+  left: 120px;
+  font-family: $global-font-family;
+  cursor: pointer;
+}
+.mainRun{
+  margin-top:-5vh;
+}

@@ -1,0 +1,38 @@
+@media screen and (max-width: 480px) {
+  .main{
+    padding:5vh 3vw 3vh 3vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .left{
+    flex:1;
+  }
+  .right{
+    flex:4;
+    letter-spacing: 3px;
+    font-size:4vw;
+    font-weight: 600;
+    line-height: 20px;
+  }
+}
+@media screen and (min-width: 481px) {
+  .main{
+    padding:5vh 5vw 3vh 5vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .left{
+    flex:1;
+    text-align: center;
+  }
+  .right{
+    flex:6;
+    letter-spacing: 2px;
+    font-size:1.2vw;
+    font-weight: 600;
+    line-height: 50px;
+  }
+}
+
