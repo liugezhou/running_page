@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://liugezhou.gitub.io/sitemap/sitemap-index.xml
+Host: https://liugezhou.gitub.io
